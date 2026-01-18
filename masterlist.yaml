@@ -21901,8 +21901,8 @@ plugins:
         name: 'Books of Skyrim SE - Redux'
     msg:
       - <<: *patchUpdateAvailable
-        subs: [ '[Books of Skyrim SE - Redux](https://www.nexusmods.com/skyrimspecialedition/mods/46991/)' ]
-        condition: 'active("BooksOfSkyrim.esp") and not version("BooksOfSkyrim.esp", "5.0.0", >=)'
+        subs: [ '[Books of Skyrim SE - Reimagined](https://www.nexusmods.com/skyrimspecialedition/mods/46991/)' ]
+        condition: 'active("BooksOfSkyrim.esp") and not version("BooksOfSkyrim.esp", "1.170000", >=)'
       - <<: *requiresResources
         subs: [ '[Books of Skyrim SE](https://www.nexusmods.com/skyrimspecialedition/mods/4115/)' ]
         condition: 'not file("BooksOfSkyrim.bsa") and not file("BooksOfSkyrim - Textures.bsa") and not file("textures/manny/librarian/manny_librarian_sign.dds")'
